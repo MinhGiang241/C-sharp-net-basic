@@ -2,7 +2,7 @@ using GameStore.Api.Entities;
 
 namespace GameStore.Api.Repositories;
 
-public class InMemGamesRepository
+public class InMemGamesRepository : IGamesRepository
 {
 
     private readonly List<Game> games = new List<Game>
@@ -12,7 +12,7 @@ public class InMemGamesRepository
     Name="Street Fighter II",
     Genre="Fighting",
     Price=19.19M,
-    releaseDate= new DateTime(1992,1,24),
+    ReleaseDate= new DateTime(1992,1,24),
     ImageUri="https://source.unsplash.com/random/100x100"
   },
   new Game(){
@@ -20,7 +20,7 @@ public class InMemGamesRepository
     Name="Final Fantasy XIV",
     Genre="Fighting",
     Price=69.19M,
-    releaseDate= new DateTime(2007,10,27),
+    ReleaseDate= new DateTime(2007,10,27),
     ImageUri="https://source.unsplash.com/random/100x100"
   },
     new Game(){
@@ -28,7 +28,7 @@ public class InMemGamesRepository
     Name="FIFA 23",
     Genre="Fighting",
     Price=59.99M,
-    releaseDate= new DateTime(2010,9,30),
+    ReleaseDate= new DateTime(2010,9,30),
     ImageUri="https://source.unsplash.com/random/100x100"
   }
 

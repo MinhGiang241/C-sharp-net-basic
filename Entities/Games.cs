@@ -17,7 +17,7 @@ public class Game
     [Range(1, 100)]
     public decimal Price { get; set; }
 
-    public DateTime releaseDate { get; set; }
+    public DateTime ReleaseDate { get; set; }
 
     [Url]
     [StringLength(100)]
