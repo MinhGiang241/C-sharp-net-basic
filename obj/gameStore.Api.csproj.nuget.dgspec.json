@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Apps\\dotnet\\gameStore.Api\\gameStore.Api.csproj": {}
+    "D:\\Projects\\C-sharp-net-basic\\gameStore.Api.csproj": {}
   },
   "projects": {
-    "D:\\Apps\\dotnet\\gameStore.Api\\gameStore.Api.csproj": {
+    "D:\\Projects\\C-sharp-net-basic\\gameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Apps\\dotnet\\gameStore.Api\\gameStore.Api.csproj",
+        "projectUniqueName": "D:\\Projects\\C-sharp-net-basic\\gameStore.Api.csproj",
         "projectName": "gameStore.Api",
-        "projectPath": "D:\\Apps\\dotnet\\gameStore.Api\\gameStore.Api.csproj",
-        "packagesPath": "C:\\Users\\Minh Giang\\.nuget\\packages\\",
-        "outputPath": "D:\\Apps\\dotnet\\gameStore.Api\\obj\\",
+        "projectPath": "D:\\Projects\\C-sharp-net-basic\\gameStore.Api.csproj",
+        "packagesPath": "C:\\Users\\minhg\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\C-sharp-net-basic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Minh Giang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minhg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Projects\\C-micro\\dotnet_microservice\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +46,16 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "MinimalApis.Extensions": {
               "target": "Package",
               "version": "[0.11.0, )"
@@ -69,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
