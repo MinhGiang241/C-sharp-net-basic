@@ -36,6 +36,7 @@ namespace gameStore.Api.Data.Migrations
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("ImageUri")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace gameStore.Api.Data.Migrations
 {
     [DbContext(typeof(GameStoreContext))]
-    [Migration("20231202172835_InitialCreate")]
+    [Migration("20231207145444_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -39,6 +39,7 @@ namespace gameStore.Api.Data.Migrations
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("ImageUri")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 

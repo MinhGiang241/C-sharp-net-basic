@@ -1,4 +1,5 @@
 using GameStore.Api.Dtos;
+using gameStore.Api.Entities;
 using GameStore.Api.Entities;
 using GameStore.Api.Repositories;
 

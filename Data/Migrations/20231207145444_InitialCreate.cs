@@ -21,7 +21,7 @@ namespace gameStore.Api.Data.Migrations
                     Genre = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     Price = table.Column<decimal>(type: "decimal(5,2)", precision: 5, scale: 2, nullable: false),
                     ReleaseDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ImageUri = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true)
+                    ImageUri = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
